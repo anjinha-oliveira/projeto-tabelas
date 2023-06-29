@@ -3,11 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Média Alunos</title>
 </head>
 <body>
     <table>
         <caption>Médias das Disciplinas</caption>
+        <thead>
+            <tr>
+                <th scope="colgroup" rowspan="2">Área</th>
+                <th scope="colgroup" rowspan="2">Disciplinas</th>
+                <th scope="colgroup" colspan="2">Notas</th>
+                <th scope="colgroup" rowspan="2">Média</th>
+            </tr>
+            <tr>
+                <th scope="colgroup">Nota 1</th>
+                <th scope="colgroup">Nota 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="rowgroup" rowspan="2">Exatas</th>
+                    <td>Matemática</td>
+                    <td>1.5</td>
+                    <td>2</td>
+                    <td>5</td>
+            </tr>
+            <tr>
+                <td>Física</td>
+                <td>10.0</td>
+                <td>7.5</td>
+                <td>7.9</td>
+            </tr>
+            <tr>
+                <th scope="row">Média Exatas</th>
+                <td>10.0</td>
+            </tr>
+            <tr>
+                <th scope="rowgroup" rowspan="2">Humanas</th>
+                <td>História</td>
+                <td>10.6</td>
+                <td>2.0</td>
+                <td>10.0</td>
+            </tr>
+            <tr>
+                <td>Geográfia</td>
+                <td>7.6</td>
+                <td>5.6</td>
+                <td>10.0</td>
+            </tr>
+            <tr>
+                <th scope="row">Média Humanas</th>
+                <td>10.0</td>
+            </tr>
+        </tbody>
     </table>
 </body>
 </html>
