@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+div#container {
+    overflow-x: auto
+}
+
 table {
     border-collapse: collapse;
 }
@@ -15,7 +19,7 @@ th, td {
 }
 
 th {
-    padding: 1rem 2em;
+    padding: 2rem 5em;
 }
 td.media-total, .cabecalho:nth-child(1n) {
     background-color: darkgray;
