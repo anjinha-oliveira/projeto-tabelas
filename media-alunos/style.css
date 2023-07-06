@@ -3,11 +3,26 @@
 table {
     border-collapse: collapse;
 }
+caption {
+    padding: 2rem;
+}
 
 th, td {
     border: 1px solid;
+    text-align: center;
 }
 
 th {
-    padding: 1rem 5em;
+    padding: 1rem 2em;
+}
+td.media-total, .cabecalho:nth-child(1n) {
+    background-color: darkgray;
+}
+
+th.colun-media:nth-child(1n) {
+    background-color: darkgray;
+}
+
+th.colun-media {
+    text-align: initial;
 }
